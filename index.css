@@ -1,0 +1,116 @@
+*{font-family:'sans-serif', 'Noto Sans TC';
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #f1dcc1;
+    background-image: url(./index/未命名-1.png);
+}
+
+.header{
+    width: 100%;
+    height:200px;
+    background-color: #E9C58F;
+    text-align: center;
+  }
+  
+  .header-title{
+    display:inline-block;
+    width:600px;
+    height:85px;
+    font-family: 'PT Serif';
+    font-size:70px;
+    color:white;
+    margin-left:60px;
+    padding-top:50px;
+  }
+  
+  .toolbar{
+    display:inline-block;
+    width:50px;
+    position:relative;
+    top:-12px;
+    left:15%;
+  }
+  
+  .tool{
+    top:20px;
+    width:50px;
+    height:50px;
+    display:inline-block;
+    position:relative;
+  }
+  
+  .choice{
+    width: 100px;
+    height: auto;
+    opacity: 50%;
+  }
+  
+  li{
+    list-style: none;
+  }
+  
+  .colorlist{
+    display: none;
+    position: absolute;
+    z-index: 50;
+    padding: 0;
+    right: 5%;
+    margin:0;
+  }
+  
+  .colorlist li{
+    padding:25px 35px;
+    background-color: white;
+  }
+  
+  .colorlist li:first-child{
+    padding:15px;
+    background-color:transparent;
+  }
+  
+  .change-color:hover .colorlist {
+    display:block;
+  }
+  
+  .choice:hover {
+    opacity: 100%;
+    color: #4d3006;
+    transition-duration:0.3s;
+  }
+
+  .photo{
+      margin-left:50px;
+      margin-top:90px;
+      width:400px;
+      display:inline-block;
+  }
+
+  .information{
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+  }
+
+  .introduce{
+    margin-right:50px;
+    margin-top:90px;
+    width:40%;
+    color:#68523E;
+    text-align: left;
+  }
+
+  .introduce p{    font-size:20px;
+    line-height: 40px;
+    display:inline-block;
+  }
+
+  .introduce h1{
+    font-family: 'Noto Serif TC';
+    line-height:80px;
+    font-size:40px;
+
+  }
