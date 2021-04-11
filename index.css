@@ -112,5 +112,12 @@ body{
     font-family: 'Noto Serif TC';
     line-height:80px;
     font-size:40px;
+  }
 
+@media (min-width: 320px) and (max-width: 766px){
+    .information{
+      width:100%;
+      display:flex;
+      flex-direction: column;
+    }
   }
