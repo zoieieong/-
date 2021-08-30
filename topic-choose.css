@@ -1,0 +1,401 @@
+*{font-family: 'Noto Sans TC', sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+  background-color: #F8F4EF;
+}
+
+.header{
+  width: 100%;
+  height:140px;
+  background-color: #E9C58F;
+}
+
+.header-title{
+  display:inline-block;
+  width:425px;
+  height:85px;
+  font-family: 'PT Serif';
+  font-size:60px;
+  color:white;
+  margin-left:60px;
+  padding-top:25px;
+}
+
+.type{
+  display:inline-block;
+  width:425px;
+  height:85px;
+  font-size:25px;
+  color:white;
+  position:relative;
+  bottom:30px;
+  top:1px;
+  left:30%;
+}
+
+.toolbar{
+  display:inline-block;
+  width:50px;
+  position:relative;
+  left:15%;
+}
+
+.tool{
+  top:20px;
+  width:50px;
+  height:50px;
+  display:inline-block;
+  position:relative;
+}
+
+.choice{
+  width: 100px;
+  height: auto;
+  opacity: 50%;
+}
+
+li{
+  list-style: none;
+}
+
+.colorlist{
+  display: none;
+  position: absolute;
+  z-index: 50;
+  padding: 0;
+  right: 5%;
+  margin:0;
+}
+
+.colorlist li{
+  padding:25px 35px;
+  background-color: white;
+}
+
+.colorlist li:first-child{
+  padding:15px;
+  background-color:transparent;
+}
+
+.change-color:hover .colorlist {
+  display:block;
+}
+
+.choice:hover {
+  opacity: 100%;
+  color: #4d3006;
+  transition-duration:0.3s;
+}
+
+.cloumn{
+  padding-top:80px;
+  padding-left:100px;
+  padding-right:100px;
+  margin-bottom: 150px;
+  width:95%;
+  height: 200px;
+  position: relative;
+  display:flex;
+  justify-content: space-between;
+}
+
+.newsbox {
+  position: relative;
+  padding: 0;
+  margin-top:100px;
+  background-size: cover;
+  background-position: center;
+}
+
+.newsbox:nth-child(1){
+  display: inline-block;
+  background-image: url(./topic-choose-photo/國民法官.jpg);
+  width: 450px;
+  height: 300px;
+  margin-top: 0px;
+}
+
+.newsbox:nth-child(2){
+  display: inline-block;
+  background-image: url(./topic-choose-photo/垃圾代燒.png);
+  width: 450px;
+  height: 300px;
+  margin-top: 0px;
+}
+
+
+.newsbox2 {
+  position: relative;
+  padding: 0;
+  margin-top:100px;
+  background-size: cover;
+  background-position: center;
+}
+
+.newsbox2:nth-child(1){
+  display: inline-block;
+  background-image: url(./topic-choose-photo/跟騷法.jpg);
+  width: 450px;
+  height: 300px;
+  margin-top: 0px;
+}
+
+.newsbox2:nth-child(2){
+  display: inline-block;
+  background-image: url(./topic-choose-photo/客語.jpg);
+  width: 450px;
+  height: 300px;
+  margin-top: 0px;
+}
+
+.newsbox3 {
+  position: relative;
+  padding: 0;
+  margin-top:100px;
+  background-size: cover;
+  background-position: center;
+}
+
+.newsbox3:nth-child(1){
+  display: inline-block;
+  background-image: url(./topic-choose-photo/家暴黑數.jpg);
+  width: 450px;
+  height: 300px;
+  margin-top: 0px;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #E9C58F;
+}
+
+.newsbox:hover .overlay {
+  opacity: 1;
+}
+
+.newsbox2:hover .overlay {
+  opacity: 1;
+}
+
+.newsbox3:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  width: 80%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.footer{
+    width: 100%;
+    height:140px;
+    background-color: #E9C58F;
+    margin-top:200px;
+    font-size:16px;
+    line-height:30px;
+  }
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .header{
+    height:100px;
+  }
+
+  .header-title{
+    width:300px;
+    height:50px;
+    font-size:40px;
+    margin-left:60px;
+    padding-top:25px;
+  }
+
+  .type{
+    left:25%
+  }
+
+  .toolbar{
+    left:12%;
+  }
+
+  .cloumn{
+    padding-top:80px;
+    padding-left:80px;
+    padding-right:80px;
+    margin-bottom: 150px;
+  }
+  
+  .newsbox {
+    position: relative;
+    padding: 0;
+    margin-top:100px;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .newsbox:nth-child(1){
+    width: 405px;
+    height: 285px;
+  }
+  
+  .newsbox:nth-child(2){
+    width: 405px;
+    height: 285px;
+  }
+  
+  
+  .newsbox2:nth-child(1){
+    width: 405px;
+    height: 285px;
+  }
+  
+  .newsbox2:nth-child(2){
+    width: 405px;
+    height: 285px;
+  }
+
+  .newsbox3:nth-child(1){
+    width: 405px;
+    height: 285px;
+  }
+  
+  .footer{
+    height:120px;
+    margin-top:200px;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1023px){
+  .header{
+    height:80px;
+  }
+
+  .header-title{
+    width:200px;
+    height:50px;
+    font-size:30px;
+    margin-left:60px;
+    padding-top:25px;
+  }
+
+  .type{
+    left:25%
+  }
+
+  .toolbar{
+    left:0%;
+  }
+
+  .cloumn{
+    width:98%;
+    padding-top:80px;
+    padding-left:30px;
+    padding-right:30px;
+    margin-bottom: 80px;
+  }
+
+  .newsbox:nth-child(1){
+    width: 345px;
+    height: 225px;
+  }
+  
+  .newsbox:nth-child(2){
+    width: 345px;
+    height: 225px;
+  }
+  
+  .newsbox2:nth-child(1){
+    width: 345px;
+    height: 225px;
+  }
+  
+  .newsbox2:nth-child(2){
+    width: 345px;
+    height: 225px;
+  }
+
+  .newsbox3:nth-child(1){
+    width: 345px;
+    height: 225px;
+  }
+
+  .footer{
+    height:100px;
+    margin-top:120px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 766px){
+    .cloumn{
+        width:98%;
+        height:550px;
+        padding-left:8%;
+        padding-right:0;
+        flex-direction: column;
+        margin-bottom:0px;
+      }
+    
+      .header{
+        width: 100%;
+        height:80px;
+      }
+    
+      .header-title{
+        width:200px;
+        height:80px;
+        font-family: 'PT Serif';
+        font-size:25px;
+        color:white;
+        margin-left:60px;
+        padding-top:20px;
+      }
+    
+      .type{
+        display:none;
+      }
+    
+      .toolbar{
+        left:0%;
+      }
+    
+      .newsbox:nth-child(1){
+        width: 270px;
+        height: 190px;
+      }
+      
+      .newsbox:nth-child(2){
+        width: 270px;
+        height: 190px;
+      }
+  
+  .newsbox2:nth-child(1){
+    width: 270px;
+    height: 190px;
+  }
+  
+  .newsbox2:nth-child(2){
+    width: 270px;
+    height: 190px;
+  }
+
+  .newsbox3:nth-child(1){
+    width: 270px;
+    height: 190px;
+  }
+
+  .footer{
+    height:100px;
+    margin-top:120px;
+  }
+}
