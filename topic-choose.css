@@ -168,6 +168,14 @@ li{
   margin-top: 0px;
 }
 
+.newsbox3:nth-child(2){
+  display: inline-block;
+  background-image: url(./topic-choose-photo/鐵打.jpg);
+  width: 450px;
+  height: 300px;
+  margin-top: 0px;
+}
+
 .overlay {
   height: 100%;
   width: 100%;
@@ -269,6 +277,11 @@ li{
     width: 405px;
     height: 285px;
   }
+
+  .newsbox3:nth-child(2){
+    width: 405px;
+    height: 285px;
+  }
   
   .footer{
     height:120px;
@@ -326,6 +339,11 @@ li{
   }
 
   .newsbox3:nth-child(1){
+    width: 345px;
+    height: 225px;
+  }
+
+  .newsbox3:nth-child(2){
     width: 345px;
     height: 225px;
   }
@@ -390,6 +408,11 @@ li{
   }
 
   .newsbox3:nth-child(1){
+    width: 270px;
+    height: 190px;
+  }
+
+  .newsbox3:nth-child(2){
     width: 270px;
     height: 190px;
   }
