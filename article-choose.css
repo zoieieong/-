@@ -121,7 +121,7 @@ li{
 
 .newsbox:nth-child(2){
   display: inline-block;
-  background-image: url(./article-choose-photo/亡國感.png);
+  background-image: url(./article-choose-photo/bike1.jpg);
   width: 300px;
   height: 200px;
   margin-top: 0px;
@@ -129,7 +129,7 @@ li{
 
 .newsbox:nth-child(3){
   display: inline-block;
-  background-image: url(./article-choose-photo/bike1.jpg);
+  background-image: url(./article-choose-photo/table1.jpg);
   width: 300px;
   height: 200px;
   margin-top: 0px;
@@ -145,7 +145,7 @@ li{
 
 .newsbox2:nth-child(1){
   display: inline-block;
-  background-image: url(./article-choose-photo/table1.jpg);
+  background-image: url(./article-choose-photo/延遲開學.jpg);
   width: 300px;
   height: 200px;
   margin-top: 0px;
@@ -153,7 +153,7 @@ li{
 
 .newsbox2:nth-child(2){
   display: inline-block;
-  background-image: url(./article-choose-photo/延遲開學.jpg);
+  background-image: url(./article-choose-photo/run1.jpg);
   width: 300px;
   height: 200px;
   margin-top: 0px;
@@ -161,7 +161,7 @@ li{
 
 .newsbox2:nth-child(3){
   display: inline-block;
-  background-image: url(./article-choose-photo/run1.jpg);
+  background-image: url(./article-choose-photo/dog1.jpg);
   width: 300px;
   height: 200px;
   margin-top: 0px;
@@ -177,7 +177,7 @@ li{
 
 .newsbox3:nth-child(1){
   display: inline-block;
-  background-image: url(./article-choose-photo/dog1.jpg);
+  background-image: url(./article-choose-photo/gaming.jpg);
   width: 300px;
   height: 200px;
   margin-top: 0px;
@@ -185,7 +185,7 @@ li{
 
 .newsbox3:nth-child(2){
   display: inline-block;
-  background-image: url(./article-choose-photo/gaming.jpg);
+  background-image: url(./article-choose-photo/rola1.jpg);
   width: 300px;
   height: 200px;
   margin-top: 0px;
@@ -193,7 +193,7 @@ li{
 
 .newsbox3:nth-child(3){
   display: inline-block;
-  background-image: url(./article-choose-photo/rola1.jpg);
+  background-image: url(./article-choose-photo/weather1.JPG);
   width: 300px;
   height: 200px;
   margin-top: 0px;
@@ -209,7 +209,7 @@ li{
 
 .newsbox4:nth-child(1){
   display: inline-block;
-  background-image: url(./article-choose-photo/weather1.JPG);
+  background-image: url(./article-choose-photo/card.JPG);
   width: 300px;
   height: 200px;
   margin-top: 0px;
@@ -217,7 +217,7 @@ li{
 
 .newsbox4:nth-child(2){
   display: inline-block;
-  background-image: url(./article-choose-photo/card.JPG);
+  background-image: url(./article-choose-photo/eye1.jfif);
   width: 300px;
   height: 200px;
   margin-top: 0px;
@@ -225,7 +225,7 @@ li{
 
 .newsbox4:nth-child(3){
   display: inline-block;
-  background-image: url(./article-choose-photo/eye1.jfif);
+  background-image: url(./article-choose-photo/hand1.jpg);
   width: 300px;
   height: 200px;
   margin-top: 0px;
@@ -241,7 +241,7 @@ li{
 
 .newsbox5:nth-child(1){
   display: inline-block;
-  background-image: url(./article-choose-photo/hand1.jpg);
+  background-image: url(./article-choose-photo/sleep1.jfif);
   width: 300px;
   height: 200px;
   margin-top: 0px;
@@ -249,7 +249,7 @@ li{
 
 .newsbox5:nth-child(2){
   display: inline-block;
-  background-image: url(./article-choose-photo/sleep1.jfif);
+  background-image: url(./article-choose-photo/tax1.jpg);
   width: 300px;
   height: 200px;
   margin-top: 0px;
@@ -257,7 +257,7 @@ li{
 
 .newsbox5:nth-child(3){
   display: inline-block;
-  background-image: url(./article-choose-photo/tax1.jpg);
+  background-image: url(./article-choose-photo/鐵打.jpg);
   width: 300px;
   height: 200px;
   margin-top: 0px;
